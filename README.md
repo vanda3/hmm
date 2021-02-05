@@ -17,7 +17,9 @@ I didn’t implement the training version of Viterbi and Forward.
 
 ## Run Code
 Compile: python3 HMM.py
+
 Then insert the sequence you want viterbi/forward to evaluate
+
 Note: it starts by building the model, so it can take a few seconds.
 
 
