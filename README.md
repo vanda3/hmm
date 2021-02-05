@@ -14,3 +14,8 @@ The file build.txt contains the main structure for this model.
 - Viterbi outputs the path for a given sequence following the most likely path of the model. However, it gets stuck in a local maximum as the protein always enters a non-gene and has a low chance of transitioning.
 - Forward outputs the probability matrix.
 I didn’t implement the training version of Viterbi and Forward.
+
+## Run Code
+Compile: python3 HMM.py
+Then insert the sequence you want viterbi/forward to evaluate
+Note: it starts by building the model, so it can take a few seconds.
